@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #9B1B30; /* Guinda */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.login-container,
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+.login-logo {
+    width: 80px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    margin-bottom: 20px; /* Espacio entre la imagen y el título */
+}
+
+button {
+    background-color: #9B1B30; /* Guinda */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+button:hover {
+    background-color: #781225; /* Guinda más oscuro */
+}
+
+.log {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.log p {
+    background: #e8f7ff;
+    padding: 5px;
+    border-radius: 4px;
+    margin: 5px 0;
+}
+
+.logout {
+    background-color: #D9534F; /* Guinda más claro */
+    margin-top: 20px;
+}
+
+.logout:hover {
+    background-color: #C9302C; /* Guinda más oscuro */
+}
+
+/* Estilos para los registros */
+.registro-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.registro-imagen {
+    width: 30px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    margin-right: 10px;
+}
